@@ -5,3 +5,4 @@ langchain-together
 requests
 beautifulsoup4
 langchain-google-genai
+tempfile
