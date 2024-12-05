@@ -1,8 +1,11 @@
-streamlit
-langchain
-langchain-experimental
+streamlit==1.40.2
+langchain==0.3.9  
+langchain-experimental==0.3.3  
+faiss-cpu
 langchain-together
 requests
-beautifulsoup4
 langchain-google-genai
-tempfile
+beautifulsoup4
+langchain-community
+PyMuPDF
+tabulate
