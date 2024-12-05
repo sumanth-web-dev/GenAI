@@ -42,8 +42,8 @@ google = st.secrets['google']
 together = st.secrets['google']
 
 
-google_api = open("gemini-demo.txt").read()
-together_api = open("Q_A/togetherai.txt").read()
+# google_api = open("gemini-demo.txt").read()
+# together_api = open("Q_A/togetherai.txt").read()
 
 # model = ChatGroq(api_key=open('Groq.txt').read() , model= "llama-3.2-90b-vision-preview")
 
