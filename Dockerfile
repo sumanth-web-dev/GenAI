@@ -1,5 +1,5 @@
 # Use a compatible Python runtime
-FROM python:3.10-slim
+FROM python:3.9-slim
 
 # Set the working directory
 WORKDIR /test
