@@ -32,7 +32,7 @@ from langchain.schema import Document
 from langchain_core.messages import SystemMessage
 from langchain_together import ChatTogether
 
-
+st.sidebar.subheader("To crear the chat refresh the page")
 system_prompt = st.sidebar.text_area(label="System Prompt")
 creativity_level = st.sidebar.slider(label="Choose Model Creativity [1:low , 10:high]" , min_value = 1, max_value = 10)
 chat_type = st.sidebar.selectbox(label="Select ChatBot", options=["Normal Chatbot", "Chat with CSV (Rag)", "Chat with PDF (Rag)", "Chat with URL (Rag)"])
